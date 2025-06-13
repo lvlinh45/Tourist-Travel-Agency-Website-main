@@ -223,11 +223,13 @@ export default function Home() {
                   <a
                     className="position-relative d-block overflow-hidden"
                     href=""
+                    style={{ height: "100%" }}
                   >
                     <img
                       className="img-fluid"
                       src="assets/img/destination-2.jpg"
                       alt=""
+                      style={{ height: "100%" }}
                     />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                       25% OFF
@@ -691,8 +693,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Trần Hoàng Thục Đan</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -728,8 +730,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Nguyễn Nhật Mai Anh</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -765,8 +767,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Ngô Trọng Đức</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -802,8 +804,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Phạm Trần Huỳnh Phú</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -839,8 +841,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Nguyễn Đình Nam</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -876,8 +878,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Mai Vũ Kiều Vy</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -913,8 +915,8 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Full Name</h5>
-                  <small>Designation</small>
+                  <h5 className="mb-0">Trần Thị Linh Lan</h5>
+                  <small>Hướng dẫn viên</small>
                 </div>
               </div>
             </div>
@@ -929,59 +931,115 @@ export default function Home() {
             <h6 className="section-title bg-white text-center text-primary px-3">
               Testimonial
             </h6>
-            <h1 className="mb-5">Our Clients Say!!!</h1>
+            <h1 className="mb-5">Đánh giá từ khách hàng</h1>
           </div>
-          <div className="owl-carousel testimonial-carousel position-relative">
-            <div className="testimonial-item bg-white text-center border p-4">
+
+          <div className="testimonial-container">
+            <div className="testimonial-item">
               <img
-                className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-                src="assets/img/testimonial-1.jpg"
-                style={{ width: 80, height: 80 }}
+                className="rounded-circle shadow p-2 mb-3"
+                src="https://hoseiki.vn/wp-content/uploads/2025/03/avatar-dep-13.jpg"
+                alt="Client 1"
+                style={{ width: "80px", height: "80px" }}
               />
-              <h5 className="mb-0">John Doe</h5>
-              <p>New York, USA</p>
-              <p className="mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                amet diam et eos. Clita erat ipsum et lorem et sit.
+              <h5 className="mb-0">Nguyễn Minh Thư</h5>
+              <p className="text-muted">Hà Nội</p>
+
+              <div className="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+
+              <p>
+                "Mình rất hài lòng với chuyến đi này! Dù là du lịch tự túc nhưng
+                có HDV đi cùng nên bọn mình vừa tự do khám phá, vừa được hỗ trợ
+                rất nhiệt tình. Hướng dẫn viên vui tính, hiểu biết về văn hóa
+                địa phương, giới thiệu nhiều chỗ hay mà tụi mình không biết
+                trước. Rất đáng để trải nghiệm!"
               </p>
             </div>
-            <div className="testimonial-item bg-white text-center border p-4">
+
+            <div className="testimonial-item">
               <img
-                className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-                src="assets/img/testimonial-2.jpg"
-                style={{ width: 80, height: 80 }}
+                className="rounded-circle shadow p-2 mb-3"
+                src="https://cafebiz.cafebizcdn.vn/162123310254002176/2023/10/25/395077889-7098397910172002-7185806433740806974-n-4208-1698218520400-169821852049895214161.jpg"
+                alt="Client 2"
+                style={{ width: "80px", height: "80px" }}
               />
-              <h5 className="mb-0">John Doe</h5>
-              <p>New York, USA</p>
-              <p className="mt-2 mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                amet diam et eos. Clita erat ipsum et lorem et sit.
+              <h5 className="mb-0">Trần Quốc Anh </h5>
+              <p className="text-muted">TP. HCM</p>
+
+              <div className="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+              </div>
+
+              <p>
+                "Chuyến đi khá tốt, lịch trình linh hoạt, mình thích vì được
+                chọn giờ giấc và địa điểm tham quan theo ý mình. Hướng dẫn viên
+                thân thiện, nhiệt tình giúp đỡ khi cần, nhưng đôi lúc vẫn hơi
+                chậm trong việc xử lý một số tình huống phát sinh. Tuy vậy tổng
+                thể vẫn là chuyến đi vui và đáng nhớ."
               </p>
             </div>
-            <div className="testimonial-item bg-white text-center border p-4">
+
+            <div className="testimonial-item">
               <img
-                className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-                src="assets/img/testimonial-3.jpg"
-                style={{ width: 80, height: 80 }}
+                className="rounded-circle shadow p-2 mb-3"
+                src="https://cafebiz.cafebizcdn.vn/162123310254002176/2023/10/25/z4813277681529-bd965f8ec0d57a2f9cbfc32cc5c0ca99-7819-1698218518898-16982185191991540570444.jpg"
+                alt="Client 3"
+                style={{ width: "80px", height: "80px" }}
               />
-              <h5 className="mb-0">John Doe</h5>
-              <p>New York, USA</p>
-              <p className="mt-2 mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                amet diam et eos. Clita erat ipsum et lorem et sit.
+              <h5 className="mb-0">Lê Mỹ Linh </h5>
+              <p className="text-muted">Đà Nẵng</p>
+
+              <div className="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+
+              <p>
+                "Mình đặc biệt thích kiểu du lịch này. Vừa tự do, vừa an tâm vì
+                có người bản địa đi cùng. Bạn hướng dẫn viên siêu dễ thương,
+                nhiệt tình, dẫn bọn mình đi ăn nhiều quán ngon đúng chuẩn người
+                địa phương luôn. Điểm cộng lớn là không bị gò bó như tour trọn
+                gói."
               </p>
             </div>
-            <div className="testimonial-item bg-white text-center border p-4">
+
+            <div className="testimonial-item">
               <img
-                className="bg-white rounded-circle shadow p-1 mx-auto mb-3"
-                src="assets/img/testimonial-4.jpg"
-                style={{ width: 80, height: 80 }}
+                className="rounded-circle shadow p-2 mb-3"
+                src="https://cafebiz.cafebizcdn.vn/162123310254002176/2023/10/25/395209126-7098402140171579-3912294698631496411-n-5168-1698218521013-16982185211191625182965.jpg"
+                alt="Client 4"
+                style={{ width: "80px", height: "80px" }}
               />
-              <h5 className="mb-0">John Doe</h5>
-              <p>New York, USA</p>
-              <p className="mt-2 mb-0">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam
-                amet diam et eos. Clita erat ipsum et lorem et sit.
+              <h5 className="mb-0">Phạm Duy Khoa </h5>
+              <p className="text-muted">Hải Phòng</p>
+
+              <div className="star-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+
+              <p>
+                "Chuyến đi tạm ổn, địa điểm đẹp và đồ ăn ngon. Tuy nhiên mình kỳ
+                vọng hướng dẫn viên phải biết thêm vài ngoại ngữ cơ bản vì nhóm
+                mình có bạn nước ngoài đi cùng mà đôi lúc hơi khó giao tiếp.
+                Ngoài ra, lịch trình hơi dày, chưa có nhiều thời gian nghỉ ngơi.
+                Nếu cải thiện được thì sẽ tuyệt vời hơn."
               </p>
             </div>
           </div>
