@@ -44,13 +44,9 @@ function Header() {
             >
               <a
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href="/"
-              >
-                <i className="fab fa-twitter fw-normal" />
-              </a>
-              <a
-                className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                href="/"
+                href="https://www.facebook.com/ECOGUIDEDULICHXANH/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="fab fa-facebook-f fw-normal" />
               </a>
@@ -58,8 +54,9 @@ function Header() {
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
                 href="/"
               >
-                <i className="fab fa-linkedin-in fw-normal" />
+                <i className="fab fa-twitter fw-normal" />
               </a>
+
               <a
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
                 href="/"

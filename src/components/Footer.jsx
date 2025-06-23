@@ -36,7 +36,12 @@ export default function Footer() {
                 <a className="btn btn-outline-light btn-social" href="/">
                   <i className="fab fa-twitter" />
                 </a>
-                <a className="btn btn-outline-light btn-social" href="/">
+                <a
+                  className="btn btn-outline-light btn-social"
+                  href="https://www.facebook.com/ECOGUIDEDULICHXANH/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fab fa-facebook-f" />
                 </a>
               </div>
