@@ -8,11 +8,10 @@ export default function Home() {
           <div className="row justify-content-center py-5">
             <div className="col-lg-10 pt-lg-5 mt-lg-5 text-center">
               <h1 className="display-3 text-white mb-3 animated slideInDown">
-                Thưởng thức kỳ nghỉ của bạn cùng chúng tôi
+                KHÁM PHÁ NHIỀU HƠN, TRẢI NGHIỆM TỐT HƠN
               </h1>
               <p className="fs-4 text-white mb-4 animated slideInDown">
-                Đây là nơi bạn có thể khám phá và lên kế hoạch cho kỳ nghỉ tuyệt
-                vời của mình.
+                DISCOVER MORE, EXPLORE BETTER
               </p>
               <div className="position-relative w-75 mx-auto animated slideInDown">
                 <input
@@ -59,21 +58,8 @@ export default function Home() {
                 <span className="text-primary"> ECOGUIDE</span>
               </h1>
               <p className="mb-4">
-                Ứng dụng du lịch thông minh dành cho những người yêu thiên nhiên
-                và đam mê khám phá!
-              </p>
-              <p className="mb-4">
-                Với sứ mệnh kết nối con người với những điểm đến xanh, ECOGUIDE
-                mang đến cho bạn những hành trình du lịch bền vững và trải
-                nghiệm độc đáo. Ứng dụng cung cấp thông tin chi tiết về các địa
-                điểm du lịch sinh thái, hoạt động ngoài trời và khám phá có
-                trách nhiệm. Hướng dẫn viên hỗ trợ bạn có những trải nghiệm chân
-                thật và khác biệt so với tour đại trà.
-              </p>
-              <p className="mb-4">
-                Cùng ECOGUIDE, mỗi chuyến đi không chỉ là hành trình khám phá mà
-                còn là cách bạn góp phần gìn giữ vẻ đẹp của thiên nhiên cho thế
-                hệ mai sau.
+                Ứng dụng du lịch thông minh giúp bạn trải nghiệm hành trình bền
+                vững, chân thật và độc đáo cùng hướng dẫn viên bản địa.
               </p>
               {/*    <div className="row gy-2 gx-4 mb-4">
                 <div className="col-sm-6">
@@ -120,69 +106,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* About End */}
-      {/* Service Start */}
-      <div className="container-xxl py-5">
-        <div className="container">
-          <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 className="section-title bg-white text-center text-primary px-3">
-              Dịch vụ
-            </h6>
-            <h1 className="mb-5">Dịch vụ của chúng tôi</h1>
-          </div>
-          <div className="row g-4">
-            <div
-              className="col-lg-4 col-sm-6 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
-              <div className="service-item rounded pt-3">
-                <div className="p-4">
-                  <i className="fa fa-3x fa-globe text-primary mb-4" />
-                  <h5>Hotel Reservation</h5>
-                  <p>
-                    Tìm chỗ nghỉ lý tưởng chưa bao giờ đơn giản hơn! Sử dụng ứng
-                    dụng của chúng tôi để đặt phòng khách sạn nhanh chóng, kết
-                    nối trực tiếp với hướng dẫn viên địa phương để nhận gợi ý
-                    lưu trú độc đáo và cá nhân hóa.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-sm-6 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="service-item rounded pt-3">
-                <div className="p-4">
-                  <i className="fa fa-3x fa-hotel text-primary mb-4" />
-                  <h5>Travel Guides</h5>
-                  <p>
-                    Ứng dụng của chúng tôi kết nối bạn với các hướng dẫn viên
-                    địa phương, cung cấp lộ trình độc đáo và bí kíp trải nghiệm
-                    như người bản địa.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-4 col-sm-6 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="service-item rounded pt-3">
-                <div className="p-4">
-                  <i className="fa fa-3x fa-user text-primary mb-4" />
-                  <h5>Event Management</h5>
-                  <p>
-                    Ứng dụng của chúng tôi kết nối bạn với hướng dẫn viên để tổ
-                    chức sự kiện trơn tru, từ hội thảo đến tiệc ngoài trời.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Service End */}
       {/* Destination Start */}
       <div className="container-xxl py-5 destination">
         <div className="container">
@@ -204,15 +127,15 @@ export default function Home() {
                     href=""
                   >
                     <img
-                      className="img-fluid"
-                      src="assets/img/destination-1.png"
+                      className="img-fluid w-100"
+                      src="assets/img/destination-3.jpg"
                       alt=""
                     />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                       10% OFF
                     </div>
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                      Tour 3 đảo
+                      Tour du lịch khám phá
                     </div>
                   </a>
                 </div>
@@ -249,14 +172,14 @@ export default function Home() {
                   >
                     <img
                       className="img-fluid"
-                      src="assets/img/destination-3.jpg"
+                      src="assets/img/destination-1.jpg"
                       alt=""
                     />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
                       35% OFF
                     </div>
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                      Nhà hát đó
+                      Tour du lịch tâm linh
                     </div>
                   </a>
                 </div>
@@ -282,7 +205,7 @@ export default function Home() {
                   20% OFF
                 </div>
                 <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
-                  Nhà thờ núi
+                  Du lịch trải nghiệm cộng đồng- làng nghề
                 </div>
               </a>
             </div>
@@ -809,117 +732,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
-              data-wow-delay="0.7s"
-            >
-              <div className="team-item">
-                <div className="overflow-hidden">
-                  <img
-                    className="img-fluid"
-                    style={{
-                      height: "550px",
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
-                    src="assets/img/team-5.jpg"
-                    alt=""
-                  />
-                </div>
-                <div
-                  className="position-relative d-flex justify-content-center"
-                  style={{ marginTop: "-19px" }}
-                >
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-                <div className="text-center p-4">
-                  <h5 className="mb-0">Nguyễn Đình Nam</h5>
-                  <small>Hướng dẫn viên</small>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
-              data-wow-delay="0.7s"
-            >
-              <div className="team-item">
-                <div className="overflow-hidden">
-                  <img
-                    className="img-fluid"
-                    style={{
-                      height: "550px",
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
-                    src="assets/img/team-6.jpg"
-                    alt=""
-                  />
-                </div>
-                <div
-                  className="position-relative d-flex justify-content-center"
-                  style={{ marginTop: "-19px" }}
-                >
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-                <div className="text-center p-4">
-                  <h5 className="mb-0">Mai Vũ Kiều Vy</h5>
-                  <small>Hướng dẫn viên</small>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-lg-3 col-md-6 wow fadeInUp"
-              data-wow-delay="0.7s"
-            >
-              <div className="team-item">
-                <div className="overflow-hidden">
-                  <img
-                    className="img-fluid"
-                    style={{
-                      height: "550px",
-                      width: "100%",
-                      objectFit: "cover",
-                    }}
-                    src="assets/img/team-7.jpg"
-                    alt=""
-                  />
-                </div>
-                <div
-                  className="position-relative d-flex justify-content-center"
-                  style={{ marginTop: "-19px" }}
-                >
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a className="btn btn-square mx-1" href="">
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-                <div className="text-center p-4">
-                  <h5 className="mb-0">Trần Thị Linh Lan</h5>
-                  <small>Hướng dẫn viên</small>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -959,33 +771,6 @@ export default function Home() {
                 rất nhiệt tình. Hướng dẫn viên vui tính, hiểu biết về văn hóa
                 địa phương, giới thiệu nhiều chỗ hay mà tụi mình không biết
                 trước. Rất đáng để trải nghiệm!"
-              </p>
-            </div>
-
-            <div className="testimonial-item">
-              <img
-                className="rounded-circle shadow p-2 mb-3"
-                src="https://cafebiz.cafebizcdn.vn/162123310254002176/2023/10/25/395077889-7098397910172002-7185806433740806974-n-4208-1698218520400-169821852049895214161.jpg"
-                alt="Client 2"
-                style={{ width: "80px", height: "80px" }}
-              />
-              <h5 className="mb-0">Trần Quốc Anh </h5>
-              <p className="text-muted">TP. HCM</p>
-
-              <div className="star-rating">
-                <span class="star">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <span class="star">&#9733;</span>
-                <span class="star">&#9734;</span>
-              </div>
-
-              <p>
-                "Chuyến đi khá tốt, lịch trình linh hoạt, mình thích vì được
-                chọn giờ giấc và địa điểm tham quan theo ý mình. Hướng dẫn viên
-                thân thiện, nhiệt tình giúp đỡ khi cần, nhưng đôi lúc vẫn hơi
-                chậm trong việc xử lý một số tình huống phát sinh. Tuy vậy tổng
-                thể vẫn là chuyến đi vui và đáng nhớ."
               </p>
             </div>
 

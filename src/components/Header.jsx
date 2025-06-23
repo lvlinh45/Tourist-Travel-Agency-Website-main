@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div>
+    <div className="bg-white">
       {/* Spinner Start */}
       {/* <div
       id="spinner"
@@ -16,7 +16,7 @@ function Header() {
       >
         <span className="sr-only">Loading...</span>
       </div>
-    </div> */}
+    </div> 
       {/* Spinner End */}
 
       {/* Topbar Start */}
@@ -34,10 +34,6 @@ function Header() {
               <small className="me-3 text-light">
                 <i className="fa fa-phone-alt me-2" />
                 (+84) 865720906 - (+84) 708729462
-              </small>
-              <small className="text-light">
-                <i className="fa fa-envelope-open me-2" />
-                info@example.com
               </small>
             </div>
           </div>
@@ -70,12 +66,6 @@ function Header() {
               >
                 <i className="fab fa-instagram fw-normal" />
               </a>
-              <a
-                className="btn btn-sm btn-outline-light btn-sm-square rounded-circle"
-                to=""
-              >
-                <i className="fab fa-youtube fw-normal" />
-              </a>
             </div>
           </div>
         </div>
@@ -83,13 +73,14 @@ function Header() {
       {/* Topbar End */}
       {/* Navbar & Hero Start */}
       <div className="container-fluid position-relative p-0">
-        <nav className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-          <Link to="/" className="navbar-brand p-0">
+        <nav
+          className="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+          style={{ backgroundColor: "rgba(255, 255, 255, 1)" }}
+        >
+          <Link to="/" className="navbar-brand p-0 ">
             <h1 className="text-primary m-0">
-              <i className="fa fa-map-marker-alt me-3" />
-              ECOGUIDE
+              <img src="https://i.ibb.co/93fqzn9X/logo.png" alt="Logo" />
             </h1>
-            {/* <img src="img/logo.png" alt="Logo"> */}
           </Link>
           <button
             className="navbar-toggler"
@@ -101,10 +92,10 @@ function Header() {
           </button>
           <div className="collapse navbar-collapse" id="navbarCollapse">
             <div className="navbar-nav ms-auto py-0">
-              <Link to="/" className="nav-item nav-link">
-                Home
+              <Link to="/" className="nav-item nav-link nav-link-edit">
+                <span style={{ color: "black" }}>Trang chủ</span>
               </Link>
-              <Link to="/About" className="nav-item nav-link">
+              {/* <Link to="/About" className="nav-item nav-link">
                 About
               </Link>
               <Link to="/Services" className="nav-item nav-link">
@@ -141,11 +132,19 @@ function Header() {
               </div>
               <Link to="/Contact" className="nav-item nav-link">
                 Contact
-              </Link>
+              </Link> */}
             </div>
-            <Link to="/" className="btn btn-primary rounded-pill py-2 px-4">
-              Register
-            </Link>
+            {/* <Link to="/" className="btn btn-primary rounded-pill py-2 px-4">
+              Booking
+            </Link> */}
+            <a
+              href="https://eco-guide.netlify.app/"
+              className="btn btn-primary rounded-pill py-2 px-4"
+              target="_self"
+              rel="noopener noreferrer"
+            >
+              Booking
+            </a>
           </div>
         </nav>
       </div>
