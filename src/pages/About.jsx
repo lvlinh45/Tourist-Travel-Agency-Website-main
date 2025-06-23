@@ -103,7 +103,7 @@ function About() {
                   </p>
                 </div>
               </div>
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+              <a className="btn btn-primary py-3 px-5 mt-2" href="/">
                 Read More
               </a>
             </div>
@@ -137,13 +137,13 @@ function About() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
@@ -169,13 +169,13 @@ function About() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
@@ -201,13 +201,13 @@ function About() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
@@ -233,13 +233,13 @@ function About() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
