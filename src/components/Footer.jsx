@@ -49,12 +49,6 @@ export default function Footer() {
                 <a className="btn btn-outline-light btn-social" href="/">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fab fa-youtube" />
-                </a>
-                <a className="btn btn-outline-light btn-social" href="">
-                  <i className="fab fa-linkedin-in" />
-                </a>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">

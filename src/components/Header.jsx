@@ -44,25 +44,25 @@ function Header() {
             >
               <a
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                to=""
+                href="/"
               >
                 <i className="fab fa-twitter fw-normal" />
               </a>
               <a
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                to=""
+                href="/"
               >
                 <i className="fab fa-facebook-f fw-normal" />
               </a>
               <a
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                to=""
+                href="/"
               >
                 <i className="fab fa-linkedin-in fw-normal" />
               </a>
               <a
                 className="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2"
-                to=""
+                href="/"
               >
                 <i className="fab fa-instagram fw-normal" />
               </a>

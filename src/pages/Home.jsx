@@ -99,7 +99,7 @@ export default function Home() {
                   </p>
                 </div>
               </div> */}
-              <a className="btn btn-primary py-3 px-5 mt-2" href="">
+              <a className="btn btn-primary py-3 px-5 mt-2" href="/">
                 Xem thêm
               </a>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
                 >
                   <a
                     className="position-relative d-block overflow-hidden"
-                    href=""
+                    href="/"
                   >
                     <img
                       className="img-fluid w-100"
@@ -145,7 +145,7 @@ export default function Home() {
                 >
                   <a
                     className="position-relative d-block overflow-hidden"
-                    href=""
+                    href="/"
                     style={{ height: "100%" }}
                   >
                     <img
@@ -168,7 +168,7 @@ export default function Home() {
                 >
                   <a
                     className="position-relative d-block overflow-hidden"
-                    href=""
+                    href="/"
                   >
                     <img
                       className="img-fluid"
@@ -192,7 +192,7 @@ export default function Home() {
             >
               <a
                 className="position-relative d-block h-100 overflow-hidden"
-                href=""
+                href="/"
                 style={{ height: "100%" }}
               >
                 <img
@@ -412,7 +412,7 @@ export default function Home() {
                   Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
                   sed stet lorem sit clita duo justo magna dolore erat amet
                 </p>
-                <a className="btn btn-outline-light py-3 px-5 mt-2" href="">
+                <a className="btn btn-outline-light py-3 px-5 mt-2" href="/">
                   Read More
                 </a>
               </div>
@@ -605,13 +605,13 @@ export default function Home() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
@@ -642,13 +642,13 @@ export default function Home() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
@@ -679,13 +679,13 @@ export default function Home() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
@@ -716,13 +716,13 @@ export default function Home() {
                   className="position-relative d-flex justify-content-center"
                   style={{ marginTop: "-19px" }}
                 >
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a className="btn btn-square mx-1" href="">
+                  <a className="btn btn-square mx-1" href="/">
                     <i className="fab fa-instagram" />
                   </a>
                 </div>
