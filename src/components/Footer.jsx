@@ -10,37 +10,27 @@ export default function Footer() {
       >
         <div className="container py-5">
           <div className="row g-5">
-            <div className="col-lg-3 col-md-6">
-              <h4 className="text-white mb-3">Company</h4>
+            <div className="col-lg-4 col-md-6">
+              <h4 className="text-white mb-3">Điều khoản</h4>
               <a className="btn btn-link" href="/">
-                About Us
+                Chính sách bảo mật
               </a>
               <a className="btn btn-link" href="/">
-                Contact Us
+                Điều khoản
               </a>
               <a className="btn btn-link" href="/">
-                Privacy Policy
-              </a>
-              <a className="btn btn-link" href="/">
-                Terms &amp; Condition
-              </a>
-              <a className="btn btn-link" href="/">
-                FAQs &amp; Help
+                Câu hỏi thường gặp
               </a>
             </div>
-            <div className="col-lg-3 col-md-6">
-              <h4 className="text-white mb-3">Contact</h4>
+            <div className="col-lg-4 col-md-6">
+              <h4 className="text-white mb-3">Liên hệ</h4>
               <p className="mb-2">
                 <i className="fa fa-map-marker-alt me-3" />
-                123 Street, New York, USA
+                02 Nguyễn Đình Chiểu, Thành phố Nha Trang
               </p>
               <p className="mb-2">
                 <i className="fa fa-phone-alt me-3" />
-                +012 345 67890
-              </p>
-              <p className="mb-2">
-                <i className="fa fa-envelope me-3" />
-                info@example.com
+                (+84) 865720906
               </p>
               <div className="d-flex pt-2">
                 <a className="btn btn-outline-light btn-social" href="/">
@@ -51,7 +41,7 @@ export default function Footer() {
                 </a>
               </div>
             </div>
-            <div className="col-lg-3 col-md-6">
+            <div className="col-lg-4 col-md-6">
               <h4 className="text-white mb-3">Gallery</h4>
               <div className="row g-2 pt-2">
                 <div className="col-4">

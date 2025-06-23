@@ -616,7 +616,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Trần Hoàng Thục Đan</h5>
+                  <h5 className="mb-0">Phạm Huỳnh Phúc</h5>
                   <small>Hướng dẫn viên</small>
                 </div>
               </div>
@@ -727,7 +727,7 @@ export default function Home() {
                   </a>
                 </div>
                 <div className="text-center p-4">
-                  <h5 className="mb-0">Phạm Trần Huỳnh Phú</h5>
+                  <h5 className="mb-0">Trần Hoàng Thục Đan</h5>
                   <small>Hướng dẫn viên</small>
                 </div>
               </div>

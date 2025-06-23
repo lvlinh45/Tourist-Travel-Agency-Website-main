@@ -74,7 +74,7 @@ function Destination() {
                       alt=""
                     />
                     <div className="bg-white text-danger fw-bold position-absolute top-0 start-0 m-3 py-1 px-2">
-                      25% OFF
+                      Giảm giá 25%
                     </div>
                     <div className="bg-white text-primary fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
                       Malaysia
